@@ -1,0 +1,173 @@
+
+@include mq(desktop, max) {//"desktop-wide": 1440px
+
+}
+
+
+@include mq(desktop, max) {//"desktop":      1248px,
+
+  .wrapper{
+    width: 100%;
+  }
+
+}
+
+@include mq(tablet-wide, max) {//"tablet-wide":  1024px,
+
+  .ads .ads_cont_img, .ads_txt {
+    padding-right: 0px;
+    width: 100%;
+  }
+
+  .ads .ads_txt .ads_body {
+    height: auto;
+    overflow: visible;
+  }
+
+  .ads .ads_cont_img {
+    margin-bottom: 20px;
+  }
+
+  .ads .ads_cont_img .ads_img-link{
+    height: auto;
+  }
+
+  .ads .ads_cont_img .ads_img-link::before{
+    display: none;
+  }
+
+  .ads:nth-child(2n) .ads_cont_img{
+    padding-left: 0px;
+  }
+}
+
+@include mq(tablet, max) {//"tablet":       768px,
+
+  .pure-form label{
+    margin: 0px;
+  }
+
+  .form input, .form select{
+    width: 100%;
+  }
+
+  .date_inline{
+    padding-right: 0px;
+  }
+
+  .foto .foto_img{
+    margin-bottom: 20px;
+  }
+
+  .tbl .my_ads a {
+    display: inline-block;
+    width: 19px;
+    overflow: hidden;
+    height: 20px;
+  }
+
+  .tbl .my_ads td{
+    text-align: center;
+  }
+
+  .td_name a{
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .cart .advert{
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .cart .info{
+    width: 100%;
+  }
+
+  .cart .info .info_box{
+    text-align: center;
+  }
+
+  h1{
+    font-size: 26px;
+  }
+}
+
+@include mq(phone-wide, max) {//"phone-wide":   560px,
+
+  header .nav_logo, header .nav_menu{
+    width: 100%;
+    text-align: center;
+  }
+
+  header .nav_logo{
+    margin-bottom: 20px;
+  }
+
+  header{
+    margin-bottom: 20px;
+  }
+
+  .ads .ads_txt .ads_head{
+    font-size: 26px;
+    line-height: normal;
+  }
+
+  .ads .ads_txt .ads_body{
+    font-size: 14px;
+  }
+
+  .pure-form-aligned .pure-control-group label {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+
+  .pure-form input[type=text],
+  .pure-form input[type=password]{
+    width: 100%;
+  }
+
+  .login{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .pure-form-aligned .pure-controls,
+  .login .login_btn{
+    margin: 0px;
+  }
+
+  .login .login_btn{
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .pure-table td, .pure-table th{
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .cart .advert .advert_body .advert_body-header{
+    flex-direction: column;
+  }
+
+  .cart .advert .advert_body .advert_body-header .advert_body-info{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+@include mq(phone, max) {//"phone":        400px,
+
+}
+
+
+
+
+
+
+
+

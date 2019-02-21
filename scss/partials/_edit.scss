@@ -1,0 +1,10 @@
+.foto{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .foto_img{
+    width: 150px;
+    height: auto;
+  }
+}

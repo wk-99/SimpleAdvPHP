@@ -1,0 +1,64 @@
+.cart{
+  width: 100%;
+  padding: 20px;
+
+  .advert{
+    text-align: left;
+    padding-right: 20px;
+
+    .advert_img{
+      float: left;
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .advert_body{
+      clear: both;
+
+      .advert_body-header{
+        text-align: center;
+        margin-bottom: 20px;
+
+        .advert_body-info{
+          background: #f2f2f2;
+          padding: 10px;
+          @include font(16px, $font-color, 300);
+          border-right: 2px solid #ffffff;
+
+          &:last-child{
+            border: none;
+          }
+
+          strong{
+            font-weight: 700;
+          }
+        }
+      }
+
+      .advert_body-content{
+        @include font(16px, $font-color, 300, 160%);
+      }
+    }
+  }
+
+  .info{
+    text-align: left;
+
+    .info_box{
+      box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, .3);
+      margin-bottom: 20px;
+      padding: 20px;
+
+      h6{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+    }
+
+    .info_box-red{
+      @include font(24px, #ff0000, 700);
+    }
+  }
+}

@@ -1,0 +1,38 @@
+header{
+  width: 100%;
+  margin-bottom: 60px;
+  background: $main-color;
+  padding: 20px;
+
+  .nav_logo{
+    @include font(26px, $logo-color, 700);
+  }
+
+  .nav_menu{
+    text-align: right;
+
+    .pure-menu-link{
+      color: #ffffff;;
+
+      &:hover{
+        color: $font-color;
+      }
+
+      &.active{
+        background: #eeeeee;
+        color: $font-color;
+      }
+
+      &.active_login{
+        background: $btn-color;
+      }
+    }
+  }
+
+  .wrapper{
+    background: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
