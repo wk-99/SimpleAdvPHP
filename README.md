@@ -10,6 +10,6 @@ Used technologies:
 - HTML, SCSS, JS, JQ
 - RWD Pure.css
 
-Visit online: http://ads.vot.pl/
+Visit online: http://www.ads.vot.pl/
 
 
