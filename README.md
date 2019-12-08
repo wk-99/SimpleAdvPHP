@@ -1,15 +1,18 @@
-# Simple page with announcements
-It's a training project. Adding adverts and a management panel
+# Website classifieds
+An older project on which I learned the basics PHP. Management classifieds. No use frameworks.
 
-The panel has the addition, removal and editing of announcements. No frameworks.
+## Implemented functions:
+* Login panel
+* Register panel
+* Adding, deleting, editing classifieds
 
-Used technologies:
+## Used technologies:
 - PHP OOP
 - MySql
 - PDO Database Class ( I used CRUD https://github.com/JamieCressey/php-mysql-pdo-database-class)
 - HTML, SCSS, JS, JQ
 - RWD Pure.css
 
-Visit online: http://www.ads.vot.pl/
+## Demo online
 
-
+[Visit online](http://www.ads.vot.pl/)
