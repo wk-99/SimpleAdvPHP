@@ -1,4 +1,4 @@
-# Website classifieds
+# Site with offers
 An older project on which I learned the basics PHP. Management classifieds. No use frameworks.
 
 ## Implemented functions:
