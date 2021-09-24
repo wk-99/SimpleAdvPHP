@@ -13,6 +13,9 @@ An older project on which I learned the basics PHP. Management classifieds. No u
 - HTML, SCSS, JS, JQ
 - RWD Pure.css
 
+Preview site:
+<img src="http://propozycja.vot.pl/git/ogloszenia.jpg" alt="#">
+
 ## Demo online
 
 [Visit online](http://www.ads.vot.pl/)
