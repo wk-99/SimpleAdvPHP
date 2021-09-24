@@ -2,10 +2,10 @@
 
 class Database {
 
-	private $host = "cms.local";
-	private $user = "root";
+	private $host = "";
+	private $user = "";
 	private $password = "";
-	private $database = "deis_cms";
+	private $database = "";
 	public $pdo;
 	private $sQuery;
 	private $settings;
